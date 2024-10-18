@@ -25,17 +25,19 @@
     <!-- Home Section -->
     <section id="home" class="home">
         <div class="home-content">
-            <h3 class = "text-box">Hi there, </h3>
-            <h2>I'm Harinee, <br>A Creative Design student.</h2>
+            <h3 class="text-box">Hi there,</h3>
+            <h2>I'm Harinee,<br>A Creative <span class="highlight">Design</span> student.</h2>
             <p>Passionate about creating visually leading, user-centered experiences with minimalism and modern touches.</p>
-            <button>View My Work</button>
+            <a href="#works"><button>View My Work</button></a>
         </div>
-        <img src="https://via.placeholder.com/300" alt="Harinee's portrait">
+        <img src="images/main.png" alt="Harinee's portrait">
     </section>
+    
+    
 
     <!-- About Me Section -->
     <section id="about" class="about">
-        <img src="Group 21.png" alt="About Harinee">
+        <img src="images/arrows.png" alt="About Harinee">
         <div class="about-text">
             <h3>A Little About Me</h3>
             <p>I am a third year student of B.Design, specializing in UI/UX and Interaction Design at PES University, based in Bangalore. I’ve honed my ability to create intuitive, research-driven designs that are both user-friendly and visually appealing. I’m passionate about minimal and modern design, always backed by deep research to create experiences that connect with users on a personal level. I like to think that the best designs are the ones you barely notice.
@@ -44,53 +46,95 @@
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <h3>My Skills</h3>
-        <div class="skills-container">
-            <ul class="skills-category">
-                <li>Adobe Photoshop</li>
-                <li>Adobe Illustrator</li>
-                <li>Sketching</li>
-                <li>UI/UX Design</li>
-                <li>Figma</li>
-            </ul>
-            <ul class="skills-category">
-                <li>HTML & CSS</li>
-                <li>Instagram Marketing</li>
-                <li>Digital Art</li>
-                <li>Wireframing</li>
+<!-- Skills Section -->
+<section id="skills" class="skills">
+    <h3>My Skills</h3>
+    <div class="skills-container">
+        <div class="skills-column">
+            <h4>Competency</h4>
+            <ul>
+                <li>Problem Solving</li>
+                <li>User Research</li>
+                <li>UX Design</li>
+                <li>Information Architecture</li>
+                <li>Usability Testing</li>
+                <li>Wireframing & Prototyping</li>
+                <li>Storyboarding</li>
                 <li>Responsive Design</li>
             </ul>
         </div>
-    </section>
+        <div class="skills-column">
+            <h4>Tools</h4>
+            <ul>
+                <li>Adobe Illustrator</li>
+                <li>Adobe Photoshop</li>
+                <li>MS Office</li>
+                <li>Figma</li>
+                <li>Sketch</li>
+                <li>VS Code</li>
+                <li>HTML & CSS</li>
+            </ul>
+        </div>
+        <div class="skills-column">
+            <h4>Interests</h4>
+            <ul>
+                <li>Sketching</li>
+                <li>Digital Art</li>
+                <li>Photography</li>
+                <li>Video Editing</li>
+            </ul>
+        </div>
+    </div>
+</section>
 
-    <!-- Works Section -->
-    <section id="works" class="works">
-        <h3>My Recent Works</h3>
-        <div class="work-item">
-            <h4>Branding and Marketing</h4>
-            <p>A project focused on building a brand identity and marketing strategy for a local business.</p>
+
+
+<!-- Works Section -->
+<section id="works" class="works">
+    <h3>My Recent Works</h3>
+    <div class="work-item">
+        <div class="text-content">
+            <h4>Branding & Marketing</h4>
+            <p>A project focused on building a brand identity and marketing...</p>
             <button>See Project</button>
         </div>
-        <div class="work-item">
+        <div class="cover">
+            <img src="images/branding.png" alt="Branding project">
+        </div>
+    </div>
+    <div class="work-item">
+        <div class="text-content">
             <h4>User Interface Study</h4>
             <p>An in-depth study of UI patterns and trends for web and mobile apps.</p>
             <button>See Project</button>
         </div>
-        <div class="work-item">
+        <div class="cover">
+            <img src="images/uis.png" alt="User interface project">
+        </div>
+    </div>
+    <div class="work-item">
+        <div class="text-content">
             <h4>Game Design</h4>
             <p>Concept art and game design for an indie platformer game.</p>
             <button>See Project</button>
         </div>
+        <div class="cover">
+            <img src="images/game.png" alt="Game design project">
+        </div>
     </div>
     <div class="work-item">
-        <h4>Game Design</h4>
-        <p>Concept art and game design for an indie platformer game.</p>
-        <button>See Project</button>
+        <div class="text-content">
+            <h4>Other Design</h4>
+            <p>Concept art and game design for an indie platformer game.</p>
+            <button>See Project</button>
+        </div>
+        <div class="cover">
+            <img src="images/other gd.png" alt="More works">
+        </div>
     </div>
-    </section>
+</section>
 
-    <!-- Contact Section -->
+    <!-- Contact Section
     <section id="contact" class="contact">
         <h3>Let’s work together, or simply get in touch!</h3>
         <p>Email: harinee.design@gmail.com</p>
@@ -98,12 +142,40 @@
         <br>
         <br>
         <br>
-        <br>
-        <br>
-        <br>
-        <br>
         <p>Designed and developed by Harinee, October 2024</p>
+    </section> -->
+
+    <section id="contact" class="contact">
+        <h3>Let’s work together, or simply get in touch!</h3>
+        
+        <!-- Email & WhatsApp Links -->
+        <p>
+            <a href="mailto:harinee.design@gmail.com">
+                <img src="images/icon_email.png" alt="Email" class="icon"> harinee.design@gmail.com
+            </a>
+            <br><br>
+            <a href="https://wa.me/919345606737">
+                <img src="images/icon_mobile.png" alt="WhatsApp" class="icon"> +91 9345606737
+            </a>
+        </p>
+        <br><br>
+        <!-- Social Links -->
+        <div class="social-icons">
+            <a href="https://behance.com/harinee">
+                <img src="images/icon_behance.png" alt="Behance" class="social-icon">
+            </a>
+            <a href="https://instagram.com/harinee_design">
+                <img src="images/icon_insta.png" alt="Instagram" class="social-icon">
+            </a>
+            <a href="https://linkedin.com/in/harinee">
+                <img src="images/icon_linkedin.png" alt="LinkedIn" class="social-icon">
+            </a>
+        </div>
+        
+        <!-- Footer Text -->
+        <p class="footer-text">Designed and developed by Harinee, October 2024</p>
     </section>
+    
 
 </body>
 </html>
