@@ -463,7 +463,7 @@ nav a:hover {
 }
 
 /* up to 600px */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .project-images {
         flex-direction: column;
         gap: 20px;
@@ -514,7 +514,7 @@ nav a:hover {
 }
 
 /* 600px to 1024px */
-@media (min-width: 600px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .project-images {
         flex-direction: row;
         gap: 20px;
