@@ -387,3 +387,155 @@ nav a:hover {
     font-size: 16px;
     line-height: 1.6;
 }
+
+
+
+/* up to 600px */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 28px;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .home {
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+
+    .home-content {
+        max-width: 95%;             
+    }
+
+    .home img {
+        max-width: 80%; /* Scale the image for smaller screens */
+        margin-top: 20px;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about img {
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    .about-text {
+        width: 100%;
+    }
+
+    .skills-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .works {
+        padding: 5px 10px;
+    }
+
+    .work-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .work-item .text-content,
+    .work-item .cover {
+        width: 100%;
+    }
+
+    .work-item .cover img {
+        max-width: 100%;
+    }
+
+    .contact {
+        text-align: center;
+    }
+}
+
+/* 600px to 1024px */
+@media (min-width: 600px) and (max-width: 1024px) {
+    header {
+        padding: 20px 30px;
+    }
+
+    .home {
+        padding: 60px 40px;
+    }
+
+    .home img {
+        max-width: 300px; 
+    }
+
+    .about img {
+        width: 40%;
+    }
+
+    .about-text {
+        width: 55%;
+    }
+
+    .skills-container {
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .skills-column {
+        width: 30%;
+    }
+
+    .work-item {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .work-item .text-content {
+        width: 55%;
+    }
+
+    .work-item .cover {
+        width: 40%;
+    }
+
+    .work-item .cover img {
+        max-width: 100%;
+    }
+
+    .contact {
+        padding: 30px;
+    }
+}
+
+/* 1024px and above */
+@media (min-width: 1024px) {
+    .home {
+        padding: 80px 100px;
+    }
+
+    .home img {
+        max-width: 400px;
+    }
+
+    .skills-container {
+        gap: 60px;
+    }
+
+    .work-item .text-content,
+    .work-item .cover {
+        width: 45%;
+    }
+
+    .work-item .cover img {
+        max-width: 100%;
+    }
+}
